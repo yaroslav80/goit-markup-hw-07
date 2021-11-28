@@ -1,0 +1,20 @@
+.hero__btn {
+    @extend %button;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 32px;
+}
+.footer-form__btn {
+    @extend %button;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-form__btn {
+    @extend %button;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 55px;
+}

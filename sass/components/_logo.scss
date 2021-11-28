@@ -1,0 +1,22 @@
+.logo {
+    font-family: $page-font-bond;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: $accent-color;
+}
+.nav__logo {
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.nav__part {
+    color: $primary-title-color;
+}
+.footer__logo {
+    display: block;
+    margin-bottom: 20px;
+}
+.footer__part {
+    color: $second-title-color;
+}

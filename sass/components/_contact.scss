@@ -1,0 +1,36 @@
+.contact {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.contact__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.contact__link {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $primary-text-color;
+    transition: color $time $timing-function;
+
+    &:hover,
+    &:focus {
+        color: $accent-color; 
+        }
+    }
+
+.contact__icon {
+    fill: $primary-text-color;
+    margin-right: 10px;
+    transition: fill $time $timing-function;
+
+        .contact__link:hover &, 
+        .contact__link:focus & {
+        fill: $accent-color;
+        }
+}
+

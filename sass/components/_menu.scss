@@ -1,0 +1,35 @@
+.menu {
+    display: flex;
+}
+.menu__item:not(:last-child) {
+    margin-right: 50px;
+}
+.menu__link {
+    font-family: $page-font-base;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $primary-title-color;
+    transition: color $time $timing-function;
+        
+        &:hover, &:focus {
+        color: $accent-color;
+        }
+}
+
+.menu__link--current {
+    color: $accent-color;
+    position: relative;
+
+        &::after {
+            content: "";
+            display: block;
+            width: 100%;
+            position: absolute;
+            bottom: -32px;
+            height: 4px;
+            background: $accent-color;
+            border-radius: 2px;
+        }
+}

@@ -1,0 +1,41 @@
+.values-description {
+    display: flex;
+}
+
+.values-description__item {
+    margin-right: 30px;
+    width: 270px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+}
+
+.values-image {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.values-image__item {
+    width: 270px;
+    height: 120px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+}
+
+.values-description__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: $primary-title-color;
+}
