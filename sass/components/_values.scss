@@ -1,8 +1,8 @@
-.values-description {
+.values {
     display: flex;
 }
 
-.values-description__item {
+.values__item {
     margin-right: 30px;
     width: 270px;
 
@@ -11,27 +11,17 @@
         }
 }
 
-.values-image {
-    margin-bottom: 30px;
-    display: flex;
-}
-
-.values-image__item {
-    width: 270px;
-    height: 120px;
-    margin-right: 30px;
+.values__block {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
+    height: 120px;
     background-color: #f5f4fa;
     border-radius: 4px;
-
-        &:last-child {
-            margin-right: 0;
-        }
 }
 
-.values-description__title {
+.values__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
